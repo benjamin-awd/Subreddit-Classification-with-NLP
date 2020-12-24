@@ -39,4 +39,4 @@ By looking at the probabilities associated with each post, moderators can also u
 
 Depending on their objectives, moderators can then try to increase the diversity of topics within their subreddit, or try to broaden the conversation to other areas.
 
-The sentiment analysis that we implemented could also be useful here for moderators from r/MensLib are naturally keen on maintaining positive and constructive discourse. By monitoring changes in sentiment score over time, they can determine the overall 'mood' of their community and proactively work to address points of conflict.
+The sentiment analysis that we implemented could also be useful here for moderators from r/MensLib who are naturally keen on maintaining positive and constructive discourse. By monitoring changes in sentiment score over time, they can determine the overall 'mood' of their community and proactively work to address points of conflict.

@@ -37,6 +37,6 @@ Beyond easing the burden of moderators by giving them the ability to classify po
 
 By looking at the probabilities associated with each post, moderators can also understand the overall direction of their subreddit. It's often hard to trace the evolution of subreddits over time, however, by looking at the posts that have an extremely high classification probability (>0.99), moderators can see the language and topics that have become characteristic or emblematic of their community.
 
-Depending on their objectives, moderators can then try to increase the diversity of topics within their subreddit, or try to broaden the conversation to other areas.
+Depending on their objectives, moderators can then try to increase the diversity of topics within their subreddit, or try to attempt to refocus conversations that are straying from the vision and objectives of the subreddit.
 
-The sentiment analysis that we implemented could also be useful here for moderators from r/MensLib who are naturally keen on maintaining positive and constructive discourse. By monitoring changes in sentiment score over time, they can determine the overall 'mood' of their community and proactively work to address points of conflict.
+The sentiment analysis we implemented could also be useful here moderators. For example, the moderators from r/MensLib are focused on maintaining positive and constructive discourse. Armed with the ability to monitoring changes in sentiment over time, the moderation team can determine the overall 'mood' of their community and proactively work to address points of potential conflict within the community.

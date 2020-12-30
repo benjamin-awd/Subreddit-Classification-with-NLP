@@ -21,10 +21,10 @@ To summarize, our final model:
 - used Tfidf Vectorization with no max feature limit <br>
 - included only words or n-grams that appeared in at least 4 posts <br>
 - excluded stop words and ignored terms that that appeared in more than 20% of posts <br>
-- used Logistic Regression with Ridge regluarization (α = 0.1 | C = 10)
+- used Logistic Regression with Ridge regularization (α = 0.1 | C = 10)
 </i>
 
-Unsurprisingly, our model reveals that `r/MensRights` is fundamentally opposed to feminism, while `r/MensLib` supports feminism and has a broad and LGBTQ-inclusive perspectives of masculinity. `r/MensRights` also has a very heavy topical focus on current events like the ongoing Johnny Depp and Amber Heard court case.
+Unsurprisingly, our model reveals that `r/MensRights` is fundamentally opposed to feminism, while `r/MensLib` supports feminism and has broad and LGBTQ-inclusive perspectives of masculinity. `r/MensRights` also has a very heavy topical focus on current events like the ongoing Johnny Depp and Amber Heard court case.
 
 <img src='./assets/mr_ml_plot.png'>
 
@@ -33,7 +33,7 @@ Our model however does have some limitations, especially in misclassifying `r/Me
 To further improve model accuracy, we'd ideally need to train our model to recognize slightly more abstract concepts such as the level of introspection or sentiment within the post. This would allow our model to deal with issues that are topical to `r/MensRights` (e.g. Johnny Depp and Amber Heard), but classify posts not just by mention of a name, but also by syntactic patterns that suggest introspection and openness such as like 'I have been thinking' or 'I'd love to hear people's views'.
 
 ## Recommendations
-Beyond easing the burden of moderators by giving them the ability to classify posts from two different subreddits based on their title and selftext, there are a number of other possible applications for this model.
+Beyond easing the burden of moderators by giving them the ability to classify posts from two different subreddits based on their title and selftext, there are several other possible applications for this model.
 
 By looking at the probabilities associated with each post, moderators can also understand the overall direction of their subreddit. It's often hard to trace the evolution of subreddits over time, however, by looking at the posts that have an extremely high classification probability (>0.99), moderators can see the language and topics that have become characteristic or emblematic of their community.
 

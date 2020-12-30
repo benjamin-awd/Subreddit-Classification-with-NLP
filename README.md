@@ -28,7 +28,7 @@ Unsurprisingly, our model reveals that `r/MensRights` is fundamentally opposed t
 
 <img src='./assets/mr_ml_plot.png'>
 
-Our model however does have some limitations, especially in misclassifying `r/MensRights` posts as `r/MensLib` posts. When it comes to the wire, both subreddits care deeply about similar issues facing men (e.g. male suicide, male parenting, male gential cutting), even if their approach and beliefs are fundamentally different.
+Our model however does have some limitations, especially in misclassifying `r/MensRights` posts as `r/MensLib` posts. When it comes to the wire, both subreddits care deeply about similar issues facing men (e.g. male suicide, male parenting, male genital cutting), even if their approach and beliefs are fundamentally different.
 
 To further improve model accuracy, we'd ideally need to train our model to recognize slightly more abstract concepts such as the level of introspection or sentiment within the post. This would allow our model to deal with issues that are topical to `r/MensRights` (e.g. Johnny Depp and Amber Heard), but classify posts not just by mention of a name, but also by syntactic patterns that suggest introspection and openness such as like 'I have been thinking' or 'I'd love to hear people's views'.
 
@@ -39,4 +39,4 @@ By looking at the probabilities associated with each post, moderators can also u
 
 Depending on their objectives, moderators can then try to increase the diversity of topics within their subreddit, or try to attempt to refocus conversations that are straying from the vision and objectives of the subreddit.
 
-The sentiment analysis we implemented could also be useful here moderators. For example, the moderators from r/MensLib are focused on maintaining positive and constructive discourse. Armed with the ability to monitoring changes in sentiment over time, the moderation team can determine the overall 'mood' of their community and proactively work to address points of potential conflict within the community.
+The sentiment analysis we implemented could also be useful here moderators. For example, the moderators from r/MensLib are focused on maintaining positive and constructive discourse. Armed with the ability to monitoring changes in sentiment over time, the moderation team can determine the overall 'mood' of their community and proactively work to address points of potential conflict.
